@@ -1,0 +1,22 @@
+{
+  "title": "Galaxy Theme",
+  "name": "galaxy-theme-brackets",
+  "description": "Good colors, syntax highlight and pleasing to the eye",
+  "version": "0.0.1",
+  "author": "Learning191 <codingj191@gmail.com>",
+  "homepage": "https://github.com/Learning191/galaxy-theme-brackets",
+  "license": "MIT",
+  "keywords": ["brackets","syntax-highlighting","dark-theme","color-sheme","theme","html","javascript","css"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Learning191/galaxy-theme-brackets.git"
+  },
+  "theme":{
+    "file": "main.css",
+    "dark": true
+  },
+  "bugs": {
+    "url": "https://github.com/Learning191/galaxy-theme-brackets/issues"
+  },
+  "screenshot": "screenshot/screenshot.png"
+}
