@@ -1,0 +1,77 @@
+/* Colors */
+@white: #ffffff;
+@light: #f7f7f7;
+@gray: #dddddd;
+@gray-one: #ababbb;
+@green: #99cc99;
+@blue: rgba( 117, 133, 223, 0.625 );
+@blue-one: #3312ec;
+@agua: #46adaf;
+@yellow-warn: #dda640;
+@violet-debug: #9b3edd;
+@violet-light: #de9fc9;
+@purple: #9e32e0;
+@purple-light: #d185ff;
+@purple-dark: #8329b9;
+@red: #d62929;
+@terracota: #e07369;
+
+
+/* Editor styling */
+
+@background: #131418; // Code background
+@foreground: @gray; // Code foreground
+@cursor: #cccccc;
+@comment: #647780;
+@comment-active: #a4abaf;
+
+/* Inline styling */
+@string: @green;
+@tag: @blue;
+@variable: #46adaf;
+@varaible2: #ababbb;
+@number: #d36459;4
+@keyword: @yellow-warn;
+@attribute: @terracota;
+@qualifier: #33aebd;
+@matchingbracket-background: rgba(255, 255, 255, .2);
+
+
+
+
+/* Styles */
+
+.CodeMirror, .CodeMirror-scroll {
+    background: @background;
+    color: @foreground;
+    line-height:1.6;
+}
+
+.CodeMirror, .CodeMirror-cursor {
+    border-left: 3px solid @cursor !important;
+}
+
+
+.cm-comment { color: @comment !important; }
+.cm-number { color : @number }
+.cm-string { color: @string }
+.cm-string-2 { color: @string }
+.cm-attribute { color: @terracota }
+.cm-qualifier { color: @qualifier }
+.cm-link { color: #d36459 }
+.cm-keyword { color: @keyword }
+span.cm-variable-2 { color: #ad63a6 }
+
+/* Additional styles */
+.CodeMirror-activeline .cm-comment {
+    color: @comment-active !important;
+}
+
+.CodeMirror-matchingbracket { // Matching bracket
+	outline: 1px solid #888;
+	color: white !important;
+	background: @matchingbracket-background;
+}
+
+
+
