@@ -30,11 +30,11 @@
 @tag: @blue;
 @variable: #46adaf;
 @varaible2: #ababbb;
-@number: #d36459;4
+@number: #d36459;
 @keyword: @yellow-warn;
 @attribute: @terracota;
 @qualifier: #33aebd;
-@matchingbracket-background: rgba(255, 255, 255, .2);
+@matchingbracket-background: rgba(255, 255, 255, 0.2);
 
 
 
@@ -45,6 +45,11 @@
     background: @background;
     color: @foreground;
     line-height:1.6;
+}
+
+.CodeMirror, .CodeMirror-gutters {
+    background-color: @background;
+    border-right: 0;
 }
 
 .CodeMirror, .CodeMirror-cursor {
